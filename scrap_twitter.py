@@ -5,6 +5,7 @@ import snscrape.modules.twitter as sntwitter
 auth = tweepy.OAuthHandler("API key", "API secret key")
 auth.set_access_token("Access token", "Access token secret")
 
+
 # Create API object
 api = tweepy.API(auth)
 
